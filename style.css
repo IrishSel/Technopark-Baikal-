@@ -1,0 +1,268 @@
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+/* ------------ */
+
+
+
+
+body {
+    font-family: "Montserrat", Medium;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    overflow-y: scroll;
+    
+
+    width: 100vw;
+    height: auto;
+    margin: auto;
+    
+}
+.width{
+    transform: scale(0.9);
+
+    width: 1440px;
+    height: auto;
+    margin: auto;
+    user-select: none;
+}
+
+/* Стили шапки */
+header{
+    width: 100%;
+    height: 88px;
+    position: fixed;
+    z-index: 10;
+    background: linear-gradient(0deg, rgba(105, 150, 211, 0.65), rgba(67, 128, 211, 1));
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    position: sticky;
+    top: 0;
+    height: 93.5px;
+    
+}
+/* Стили Логотипа */
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 27px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+/* Стили Поиска */
+.search{
+    margin-right: 26px;
+    background-color: rgba(255, 255, 255, 0.37);
+    width: 283px;
+    height: 36px;
+    margin-top: 26px;
+    border-radius: 4px;
+    padding: auto;
+    position: relative;
+}
+.search form input{
+    width: 90%;
+    position: absolute;
+    left: 10px;
+    top: 25%;
+    margin-top: auto;
+}
+.search form button{
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    cursor: pointer;
+}
+
+.search form button:hover {
+    background-image: url('./index/Head/лупа.png');;
+}
+/* Стили Меню */
+.menu{
+    display: flex;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+/* Стили Текста Меню */
+.menu ul li a{
+    color: #FFFFFF;
+    padding: 0 11px 0 11px;
+}
+.menu li a:hover {
+    color: #82b6f7;
+}
+/* Стили Каждой ссылки Меню */
+.menu ul li{
+    padding-top: 30px; 
+}
+/* Стили Всплывающего меню */
+.menu ul li ul{
+    display: none;
+    justify-content: center;
+    gap: 86px;
+    opacity: 0;
+    z-index: 0;
+    align-items: stretch;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 91px;
+    padding: 0;
+    background-color: #4380D3; 
+}
+@media (hover:hover) {
+    .tab:hover > li ul{
+        display: flex;
+        transform: translate(0, 93px);
+        opacity: 1;
+    }
+}
+@media (hover:hover) {
+    .tab:hover{
+        background-color: #4380D3;
+    } 
+}
+
+/* footer */
+footer{
+    width: inherit;
+    height: 354px;
+    background: #4380D3;
+}
+.footer{
+    width: 1440px;
+    height: 354px;
+    margin-top: 170px;
+    display: flex;
+    gap: 228px;
+    background: #4380D3;
+}
+.footer .logo{
+    display: flex;
+}
+.footer .logo img{
+    width: 171px;
+}
+.footer .logo .logoText p{
+    font-weight: bold;
+    font-size: 48px;
+}
+.footer .InfoFoot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 40px;
+}
+.footer a:nth-child(1){
+    display: flex;
+}
+.footer .InfoFoot .info{
+    display: flex;
+    gap: 21px;
+}
+.footer .InfoFoot a, .footer .InfoFoot div a{
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.socialNetwork{
+    display: flex;
+    flex-direction: row;
+}
