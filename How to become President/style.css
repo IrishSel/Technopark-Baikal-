@@ -1,0 +1,201 @@
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex_col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px 0px;
+    margin: 14px auto 102px;
+    width: 92.36%;
+  }
+  .flex_row {
+    display: flex;
+    align-items: center;
+    gap: 0px 9px;
+    width: 99.85%;
+  }
+  .highlight {
+    min-width: 0px;
+    font: 400 16px/1.18 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .highlight1 {
+    min-width: 0px;
+    font: 400 16px/1.18 "Inter", Helvetica, Arial, serif;
+    color: rgb(116, 116, 116);
+  }
+  .flex_col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 75px 0px;
+    width: 100%;
+  }
+  .hero_title {
+    width: 100%;
+    font: 500 48px/1.2 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .flex_col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 53px 0px;
+    width: 99.92%;
+  }
+  .content_box1 {
+    display: flex;
+    flex-direction: column;
+    width: 99.4%;
+    background-color: #E7EEF7;
+  }
+  .flex_row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 10px;
+    margin: 82px auto 90px;
+    width: 86%;
+  }
+  .subtitle_box {
+    min-width: 0px;
+  }
+  .subtitle {
+    font: 400 20px/1.2 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .subtitle_span0 {
+    font: 1em/1.2 "Inter", Helvetica, Arial, serif;
+  }
+  .subtitle_span1 {
+    font: 1em/1.2 "Inter", Helvetica, Arial, serif;
+    text-decoration: underline;
+  }
+  .subtitle_span2 {
+    font: 1em/1.2 "Inter", Helvetica, Arial, serif;
+  }
+  .content_box {
+    display: flex;
+    flex-direction: column;
+    width: 203px;
+    min-width: 0px;
+    background-color: #0275d8;
+  }
+  .content_box:hover{
+    background-color: #01447e;
+  }
+  .subtitle1 {
+    margin: 18px auto 17px;
+    font: 400 20px/1.2 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .flex_col3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 99.92%;
+  }
+  .medium_title2 {
+    font: 400 24px/1.37 "Open Sans", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .big_title {
+    margin: 38px 0px 0px;
+    width: 99.55%;
+    font: 400 36px/1.36 "Open Sans", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .medium_title21 {
+    margin: 25px 0px 0px;
+    width: 99.02%;
+    font: 400 24px/1.37 "Open Sans", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .big_title1 {
+    margin: 43px 0px 0px;
+    width: 99.55%;
+    font: 400 36px/1.36 "Open Sans", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .medium_title22_box {
+    margin: 25px 0px 0px;
+    width: 98.95%;
+  }
+  .medium_title22 {
+    font: 400 24px/1.37 "Open Sans", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .medium_title22_span0 {
+    font: 1em/1.37 "Open Sans", Helvetica, Arial, serif;
+  }
+  .medium_title22_span1 {
+    font: 1em/1.37 "Open Sans", Helvetica, Arial, serif;
+    text-decoration: underline;
+  }
+  .big_title2 {
+    margin: 10px 0px 0px;
+    width: 100%;
+    font: 400 36px/1.36 "Open Sans", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .medium_title23 {
+    margin: 25px 0px 0px;
+    width: 98.95%;
+    font: 400 24px/1.37 "Open Sans", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .medium_title24 {
+    margin: 11px 0px 0px;
+    width: 100%;
+    font: 400 24px/1.37 "Open Sans", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+  }
+  .big_title3 {
+    margin: 32px 0px 0px;
+    width: 98.19%;
+    font: 400 36px/1.36 "Open Sans", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .medium_title25 {
+    margin: 20px 0px 0px;
+    width: 98.95%;
+    font: 400 24px/1.37 "Open Sans", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+
+/*ХЛЕБНЫЕ КРОШКИ
+
+/* Стиль списка */
+ul.breadcrumb {
+  padding: 110px 60px 0px ;
+  list-style: none;
+  }
+  
+  /* Отображение элементов списка бок о бок */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Добавить символ косой черты (/) перед/за каждым элементом списка */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Добавить цвет для всех ссылок внутри списка */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Добавить цвет на наведении курсора мыши */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
