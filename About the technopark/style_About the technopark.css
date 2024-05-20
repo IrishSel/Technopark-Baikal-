@@ -1,0 +1,175 @@
+.flex_col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px 0px;
+    margin: 14px auto 70px;
+    width: 91.67%;
+  }
+  .flex_row {
+    display: flex;
+    align-items: center;
+    gap: 0px 8px;
+    width: 100%;
+  }
+  .highlight {
+    min-width: 0px;
+    font: 400 16px/1.18 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .highlight1 {
+    min-width: 0px;
+    font: 400 16px/1.18 "Inter", Helvetica, Arial, serif;
+    color: rgb(116, 116, 116);
+  }
+  .flex_col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px 0px;
+    width: 100%;
+  }
+  .flex_col2 {
+    display: flex;
+    flex-direction: column;
+    gap: 23px 0px;
+    width: 99.92%;
+  }
+  .flex_col3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px 0px;
+  }
+  .hero_title {
+    width: 99.85%;
+    font: 500 36px/1.2 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .title {
+    font: 400 26px/1.21 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+  }
+  .rect2 {
+    margin: 0px 0px 0px 8.49%;
+    width: 74.68%;
+    min-height: 460px;
+    background-color: rgb(217, 217, 217);
+  }
+  .flex_col4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 41px 0px;
+    width: 100%;
+  }
+  .flex_col5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .title1 {
+    width: 99.92%;
+    font: 400 26px/1.21 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+  }
+  .hero_title1 {
+    margin: 29px 0px 0px;
+    width: 99.92%;
+    font: 700 36px/1.2 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .title2 {
+    margin: 12px 0px 0px;
+    font: 400 26px/1.21 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+  }
+  .flex_col6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 41px 0px;
+    width: 80.61%;
+  }
+  .flex_col7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 52px 0px;
+    width: 99.72%;
+  }
+  .hero_title2 {
+    font: 700 40px/1.22 "Montserrat", Helvetica, Arial, serif;
+    color: rgb(67, 128, 211);
+  }
+  .flex_col8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px 0px;
+    width: 100%;
+  }
+  .flex_row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 10px;
+    width: 100%;
+  }
+  .image_par{
+    width: 172px;
+    min-width: 0px;
+  }
+
+  .flex_row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 10px;
+    width: 99.72%;
+  }
+  .flex_col9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 41px 0px;
+    width: 99.72%;
+  }
+
+/*ХЛЕБНЫЕ КРОШКИ
+
+/* Стиль списка */
+ul.breadcrumb {
+    padding: 110px 70px 0px ;
+    list-style: none;
+  }
+  
+  /* Отображение элементов списка бок о бок */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Добавить символ косой черты (/) перед/за каждым элементом списка */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Добавить цвет для всех ссылок внутри списка */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Добавить цвет на наведении курсора мыши */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
