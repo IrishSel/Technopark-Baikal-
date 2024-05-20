@@ -1,0 +1,131 @@
+.section2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex_col {
+    display: flex;
+    flex-direction: column;
+    gap: 76px 0px;
+    margin: 14px auto 36px;
+    width: 91.74%;
+  }
+  .flex_col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px 0px;
+    width: 339px;
+  }
+  .flex_row {
+    display: flex;
+    align-items: center;
+    gap: 0px 5px;
+    width: 100%;
+  }
+  .highlight {
+    min-width: 0px;
+    font: 400 16px/1.18 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .highlight1 {
+    min-width: 0px;
+    font: 400 16px/1.18 "Inter", Helvetica, Arial, serif;
+    color: rgb(116, 116, 116);
+  }
+  .flex_col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px 0px;
+    width: 100%;
+  }
+  .hero_title {
+    font: 500 48px/1.2 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .title {
+    padding-left: 15px;
+    width: 100%;
+    font: 500 32px/1.21 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .flex_col3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px 0px;
+    margin: 0px 0px 0px 1px;
+  }
+  .flex_col4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px 0px;
+    width: 100%;
+  }
+  .flex_row1 {
+    display: flex;
+    align-items: center;
+    gap: 0px 22px;
+    width: 100%;
+  }
+  .rect {
+    width: 427px;
+    min-width: 0px;
+    height: 339px;
+    min-height: 339px;
+  }
+  .rect img{
+    border-radius: 26px;
+  }
+
+  
+  .content_box {
+    display: flex;
+    flex-direction: column;
+    width: 18.48%;
+    background-color: #E7EEF7;
+    border-radius: 19.51999855041504px 19.51999855041504px 19.51999855041504px 19.51999855041504px;
+  }
+  .content_box:hover{
+    background-color: #0275d8;
+  }
+  .medium_title1 {
+    margin: 18px auto 16px;
+    font: 500 24px/1.2 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+
+/*ХЛЕБНЫЕ КРОШКИ
+
+/* Стиль списка */
+ul.breadcrumb {
+    padding: 110px 40px 16px;
+    list-style: none;
+    padding-left: 5%;
+  }
+  
+  /* Отображение элементов списка бок о бок */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Добавить символ косой черты (/) перед/за каждым элементом списка */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Добавить цвет для всех ссылок внутри списка */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Добавить цвет на наведении курсора мыши */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
