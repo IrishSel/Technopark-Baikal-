@@ -1,0 +1,62 @@
+@media screen and (max-width:992px){
+        header {
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+        }
+}
+@media screen and (max-width: 786px){
+ .slider{
+    display: none;
+ }
+ .slide{
+    display: none;
+ }
+}
+@media screen and (max-width: 480px){
+    .bur_menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        top: 88px; /* Высота шапки */
+    }
+
+    .menu.active {
+        display: block;
+    }
+
+    .logo {
+        margin: 10px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .toggle img {
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin: 20px;
+    }
+
+    .menu ul li {
+        display: none;
+    }
+
+@media screen and (max-width: 320px){
+    .bur_menu {
+        width: 34px;
+        height: 34px;
+    }
+
+    .menu {
+        top: 50px; /* Изменить позицию меню */
+    }
+}}
