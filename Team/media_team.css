@@ -1,0 +1,17 @@
+@media screen and (max-width: 992px){
+    .container { width: 91.74%; }
+    .highlight1 { color: rgb(116, 116, 116); }
+}
+@media screen and (max-width: 786px){
+    .container { width: 91.74%; }
+    .highlight1 { color: rgb(116, 116, 116); }
+}
+
+@media screen and (max-width: 480px){
+    .container { width: 91.74%; }
+    .highlight1 { color: rgb(116, 116, 116); }
+}
+@media screen and (max-width: 320px) {
+    .container { width: 100%; }
+    .highlight1 { color: rgb(116, 116, 116); }
+}
