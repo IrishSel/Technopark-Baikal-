@@ -1,0 +1,111 @@
+@media screen and (max-width: 992px){
+    .container {
+        flex-direction: column;
+        margin: 14px auto 50px;
+        }
+        .main_info {
+        width: 100%;
+        }
+        .image, .text_box {
+        width: 100%;
+        }
+        .flex_row {
+        flex-direction: column;
+        gap: 11px 0px;
+        }
+        .hero_title {
+        font-size: 36px;
+        margin: 22px 0px 0px 0px;
+        }
+        .subtitle1 {
+        margin: 15px 0px 0px 0px;
+        }
+        .subtitle2 {
+        margin: 100px 0px 0px 0px;
+        width: 100%;
+        }
+}
+@media screen and (max-width: 786px){
+    .breadcrumb {
+        padding: 80px 40px 0px ;
+        }
+        .highlight, .highlight1 {
+        font-size: 14px;
+        }
+        .hero_title {
+        font-size: 32px;
+        margin: 22px 0px 0px 0px;
+        }
+        .medium_title2 {
+        font-size: 18px;
+        }
+        .subtitle1 {
+        font-size: 18px;
+        margin: 20px 0px 0px 0px;
+        }
+        .subtitle2 {
+        font-size: 18px;
+        margin: 100px 0px 0px 0px;
+        width: 100%;
+        }
+        .image, .text_box {
+        width: 100%;
+        }
+}
+@media screen and (max-width: 480px){
+    .breadcrumb {
+        padding: 50px 20px 0px ;
+        }
+        .highlight, .highlight1 {
+        font-size: 12px;
+        }
+        .hero_title {
+        font-size: 24px;
+        margin: 18px 0px 0px 0px;
+        }
+        .medium_title2 {
+        font-size: 16px;
+        }
+        .subtitle1 {
+        font-size: 16px;
+        margin: 15px 0px 0px 0px;
+        }
+        .subtitle2 {
+        font-size: 16px;
+        margin: 80px 0px 0px 0px;
+        width: 100%;
+        }
+}
+@media screen and (max-width: 320px) {
+        ul.breadcrumb {
+          padding: 50px 20px 0px;
+        }
+        ul.breadcrumb li {
+          font-size: 14px;
+        }
+        ul.breadcrumb li+li:before {
+          padding: 5px;
+        }
+        .highlight, .highlight1 {
+          font-size: 12px;
+        }
+        .hero_title {
+          font-size: 24px;
+          margin: 20px 0 0 0;
+        }
+        .medium_title2 {
+          font-size: 16px;
+        }
+        .subtitle1 {
+          font-size: 16px;
+          margin: 15px 0 0 0;
+        }
+        .subtitle2 {
+          font-size: 16px;
+          margin: 80px 0 0 0;
+          width: 100%;
+        }
+        .image, .text_box {
+          width: 100%;
+        }
+      }

@@ -1,0 +1,118 @@
+@media screen and (max-width: 992px){
+  .main_container {
+    width: 100%;
+    gap: 17px 0px;
+    margin: 15px auto 30px;
+    }
+    .text_name {
+    width: 100%;
+    gap: 25px 0px;
+    }
+    .flex_row {
+    gap: 0px 5px;
+    }
+    .big_title {
+    font-size: 28px;
+    }
+    .info {
+    gap: 0px 10px;
+    margin: 15px 5px 10px;
+    }
+    .img_contact img {
+    width: 130px;
+    height: 75px;
+    }
+    .info_text {
+    width: 100%;
+    gap: 20px 0px;
+    }
+    .subtitle1 {
+    font-size: 18px;
+    }
+    .contact_data {
+    gap: 0px 5px;
+    }
+    .number {
+    width: 100px;
+    }
+    .title2 {
+    font-size: 14px;
+    }
+}
+@media screen and (max-width: 786px){
+  .text_name {
+    width: 100%;
+    gap: 15px 0px;
+    }
+    .subtitle1 {
+    font-size: 16px;
+    }
+    .info_text {
+    width: 100%;
+    gap: 20px 0px;
+    }
+    .subtitle {
+    font-size: 18px;
+    }
+    .email {
+    width: 180px;
+    }
+    .subtitle2 {
+    font-size: 16px;
+    }
+    .time_work {
+    width: 280px;
+    }
+    }
+    
+    @media screen and (max-width: 480px) {
+    .text_name {
+    gap: 10px 0px;
+    }
+    .big_title {
+    font-size: 24px;
+    }
+    .img_contact img {
+    width: 100px;
+    height: 60px;
+    }
+    .subtitle1 {
+    font-size: 14px;
+    }
+    .subtitle {
+    font-size: 16px;
+    }
+    .email {
+    width: 150px;
+    }
+    .subtitle2 {
+    font-size: 14px;
+    }
+    .time_work {
+    width: 250px;
+    }
+}
+@media screen and (max-width: 320px){
+  .main_container {
+    gap: 15px 0px;
+    }
+    .big_title {
+    font-size: 20px;
+    }
+    .img_contact img {
+    width: 80px;
+    height: 50px;
+    }
+    .subtitle1 {
+    font-size: 12px;
+    }
+    .subtitle {
+    font-size: 14px;
+    }
+    .subtitle2 {
+    font-size: 12px;
+    }
+    .time_work {
+    width: 200px;
+    }
+}
