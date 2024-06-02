@@ -1,0 +1,48 @@
+@media screen and (max-width: 992px){
+  .title,.title1 {
+  font-size: 18px;}
+.hero_title { font-size: 32px; }
+}
+@media screen and (max-width: 786px){
+.title,.title1 {
+font-size: 16px;}
+
+  .hero_title { font-size: 28px; }
+        /* ХЛЕБНЫЕ КРОШКИ */
+        ul.breadcrumb { 
+          padding: 50px 20px 0px; 
+        } 
+        ul.breadcrumb li { 
+          font-size: 14px; 
+        } 
+      }
+@media screen and (max-width: 480px){
+  .title,.title1 { font-size: 14px;
+}
+  .hero_title { font-size: 24px; }
+  ul.breadcrumb { 
+    padding: 50px 10px 0px; 
+     } 
+  ul.breadcrumb li { 
+     font-size: 14px; 
+    } 
+}
+@media screen and (max-width: 320px){
+  .title,.title1 {  font-size: 12px;
+  }
+  .hero_title { font-size: 20px; }
+      
+        .image_par {
+          width: 50%;
+          padding: 0 10px;
+          box-sizing: border-box;
+        }
+      
+        ul.breadcrumb {
+          padding: 20px 10px 0;
+        }
+      
+        ul.breadcrumb li+li:before {
+          content: "\00a0/\00a0";
+        }
+}
