@@ -1,0 +1,171 @@
+@media screen and (max-width: 992px){
+    .container {
+        width: 100%;
+        margin: 14px 0px;
+        }
+        .grid {
+        width: 100%;
+        }
+        .item {
+        padding: 50px 8px;
+        }
+        .btn {
+        width: 100%;
+        }
+        .plus {
+        background-size: cover;
+        }
+        .food,
+        .team,
+        .hight,
+        .korporat,
+        .loal {
+        width: 100%;
+        }
+}
+@media screen and (max-width: 786px){
+    .container {
+        width: 100%;
+        margin: 14px 0px;
+        }
+        .grid {
+        width: 100%;
+        }
+        .item {
+        padding: 50px 8px;
+        }
+        .btn {
+        width: 100%;
+        }
+        .highlight {
+        font-size: 14px;
+        }
+        .highlight1,
+        .medium_title3,
+        .title,
+        .highlight2,
+        .highlight21 {
+        font-size: 18px;
+        }
+        .hero_title {
+        font-size: 36px;
+        }
+        .btn {
+        font-size: 24px;
+        }
+}
+@media screen and (max-width: 480px){
+    .photo,
+    .text_vacation,
+    .text_title,
+    .icon {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px 0;
+    }
+    .text_title {
+    width: 300px;
+    }
+    .image5 {
+    width: 100%;
+    }
+    .grid {
+    width: 100%;
+    }
+    .btn {
+    width: 100%;
+    }
+    .highlight {
+    font-size: 12px;
+    }
+    .highlight1,
+    .medium_title3,
+    .title,
+    .highlight2,
+    .highlight21 {
+    font-size: 16px;
+    }
+    .hero_title {
+    font-size: 24px;
+    }
+    .btn {
+    font-size: 20px;
+    }
+    .image7 {
+    width: 30px;
+    height: 30px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .container {
+        margin: 10px 0;
+        width: 100%;
+        gap: 20px 0;
+        }
+        
+        .flex_row {
+        gap: 0 5px;
+        margin: 0 1px;
+        }
+        
+        .image5 {
+        width: 100%;
+        border-radius: 12px 12px 12px 12px;
+        }
+        
+        .grid {
+        width: 100%;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+        
+        .item {
+        font-size: 20px;
+        padding: 60px 8px;
+        }
+        
+        .text_vacation {
+        gap: 0 10px;
+        margin: 50px 0;
+        width: 100%;
+        }
+        
+        .title {
+        margin: 30px 0;
+        font-size: 24px;
+        }
+        
+        .btn {
+        margin: 50px auto 0;
+        width: 100%;
+        font-size: 24px;
+        padding: 20px 12px;
+        }
+        
+        .plus {
+        gap: 0 5px;
+        margin: 70px 0;
+        }
+        
+        .icon {
+        gap: 0 5px;
+        margin: 50px auto 40px;
+        width: 100%;
+        }
+        
+        .food,
+        .team,
+        .hight,
+        .korporat,
+        .loal {
+        width: 100%;
+        margin: 0 0 10px;
+        }
+        
+        ul.breadcrumb {
+        padding: 70px 30px 0;
+        }
+        
+        ul.breadcrumb li {
+        font-size: 16px;
+        }
+}
